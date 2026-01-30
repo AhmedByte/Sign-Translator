@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Translation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Auth Section -->
+        <div id="auth-section" class="auth-container">
+            <h1 class="logo">SignTranslate</h1>
+            
+            <!-- Turn off autocomplete to keep UI clean -->
+            <div class="form-wrapper">
+                <div class="toggle-btn-container">
+                    <button id="login-toggle" class="toggle-btn active" onclick="showLogin()">Login</button>
+                    <button id="register-toggle" class="toggle-btn" onclick="showRegister()">Register</button>
+                </div>
+
+                <form id="login-form" class="auth-form" onsubmit="handleLogin(event)">
+                    <h2>Welcome Back</h2>
+                    <p class="subtitle">Enter your credentials to access the dashboard.</p>
+                    <div class="input-group">
+                        <input type="email" id="login-email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="login-password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="primary-btn">Sign In</button>
+                    <p id="login-error" class="error-msg"></p>
+                </form>
+
+                <form id="register-form" class="auth-form hidden" onsubmit="handleRegister(event)">
+                    <h2>Create Account</h2>
+                    <p class="subtitle">Join us to translate sign language seamlessly.</p>
+                    <div class="input-group">
+                        <input type="text" id="reg-username" placeholder="Username" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="reg-email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="reg-password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="primary-btn">Register</button>
+                    <p id="reg-error" class="error-msg"></p>
+                </form>
+            </div>
+        </div>
+
+        <!-- Dashboard Section -->
+        <div id="dashboard-section" class="dashboard-container hidden">
+            <header class="dashboard-header">
+                <h1 class="logo">SignTranslate</h1>
+                <div class="user-info">
+                    <span id="user-greeting">Hello, User</span>
+                    <button onclick="logout()" class="logout-btn">Logout</button>
+                </div>
+            </header>
+
+            <main class="dashboard-content">
+                <div class="action-card">
+                    <h2>Translate Video</h2>
+                    <p>Upload or record a video to get instant sign language translation.</p>
+                    
+                    <div class="action-buttons">
+                        <button class="action-btn upload-btn" onclick="triggerUpload()">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                            Upload Video
+                        </button>
+                        <button class="action-btn record-btn" onclick="triggerRecord()">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 7l-7 5 7 5V7z"></path>
+                                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                            </svg>
+                            Record Video
+                        </button>
+                    </div>
+                    
+                    <!-- Hidden file input for upload -->
+                    <input type="file" id="video-upload" accept="video/*" style="display: none;" onchange="handleFileSelect(event)">
+                </div>
+
+                <div class="result-card">
+                    <h3>Translation Result</h3>
+                    <div id="translation-box" class="translation-box">
+                        <p class="placeholder-text">Result will appear here...</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

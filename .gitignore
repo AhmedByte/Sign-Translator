@@ -1,0 +1,13 @@
+simulation/simulation_data/
+simulation/__pycache__/
+web/database.sqlite
+web/__pycache__/
+__pycache__/
+data/
+00/
+001/
+annotations/
+00.zip
+001.zip
+annotations.zip
+cropped_data/
