@@ -1,0 +1,60 @@
+id,gloss,text
+0080,Face,وجه
+0088,heart,قلب
+0134,sick,مريض / مرض
+0159,healthy,معافى
+0160,eat,يأكل
+0161,drink,يشرب
+0162,sleep,ينام
+0163,wake up,يستيقظ
+0164,hear,يسمع
+0173,walk,يمشي
+0174,love,يحب
+0175,hate,يكره
+
+0181,think,يفكر
+0182,help,يساعد
+
+0190,bathe,يستحم
+0191,enter,يدخل
+0192,family,أسرة
+0193,grandmother,جدة
+0194,grandfather,جد
+0195,father,أب
+0196,mother,أم
+0197,sister,أخت
+0198,brother,أخ
+0199,girl,بنت
+0200,baby,رضيع
+0201,twin,توأم
+0202,man,رجل
+0203,young man,شاب
+0204,young woman,شابة
+0205,grandchild,حفيد
+
+0209,uncle,عم
+0210,aunt,عمة
+
+0216,son,ابن
+0217,daughter,ابنة
+0218,people,ناس
+
+0238,happy,سعيد (مسرور)
+0239,sad,حزين
+0255,tired,تعب
+0256,crying,بكاء
+
+0292,neighbor,جار
+0294,friend,صديق
+0503,I,أنا
+0504,You (male),أنتَ
+0505,You (female),أنتِ
+0506,You (plural male),أنتم
+0507,You (dual),أنتما
+0508,You (plural female),أنتن
+0509,He,هو
+0510,She,هي
+0511,They (male),هم
+0512,They (dual),هما
+0513,They (female),هن
+0514,We,نحن

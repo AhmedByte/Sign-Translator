@@ -1,0 +1,22 @@
+# Python & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local training data and checkpoints
+data/
+data_extracted/
+model_finetuned.pt
+*.safetensors
+*.pt
+
+# Logs
+*.log
+server.log
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store

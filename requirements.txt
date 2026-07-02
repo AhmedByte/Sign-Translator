@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# requirements.txt — SignBart Sign Language Recognition Project
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# For GPU support, first install the correct CUDA-enabled torch build from
+#   https://pytorch.org/get-started/locally/
+# then install the remaining packages here.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core deep-learning framework ─────────────────────────────────────────────
+torch>=2.1.0
+
+# ── HuggingFace ecosystem ─────────────────────────────────────────────────────
+transformers>=4.40.0          # BartForConditionalGeneration, BartConfig
+safetensors>=0.4.3            # Fast, safe weight serialisation (load_file)
+huggingface-hub>=0.22.0       # Snapshot download / model card utilities
+tokenizers>=0.19.0            # Fast tokenizer backend (transitive dep)
+
+# ── Numerical / scientific ────────────────────────────────────────────────────
+numpy>=1.24.0                 # Feature array loading (.npy files)
+
+# ── Optional but recommended ──────────────────────────────────────────────────
+# accelerate>=0.29.0          # Mixed-precision / device_map support
+# sentencepiece>=0.1.99       # Required for some BART tokenizer variants
+opencv-python>=4.9.0        # Video frame extraction (real inference)
+mediapipe>=0.10.0           # Pose / hand landmark extraction (real inference)
+
+# ── Web Server & API ──────────────────────────────────────────────────────────
+fastapi
+uvicorn
+python-multipart
+pydantic

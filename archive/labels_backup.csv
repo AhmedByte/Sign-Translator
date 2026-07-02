@@ -1,0 +1,485 @@
+﻿id,gloss,text
+0001,0,0
+0002,1,1
+0003,2,2
+0004,3,3
+0005,4,4
+0006,5,5
+0007,6,6
+0008,7,7
+0009,8,8
+0010,9,9
+0011,10,10
+0012,20,20
+0013,30,30
+0014,40,40
+0015,50,50
+0016,60,60
+0017,70,70
+0018,80,80
+0019,90,90
+0020,100,100
+0021,200,200
+0022,300,300
+0023,400,400
+0024,500,500
+0025,600,600
+0026,700,700
+0027,800,800
+0028,900,900
+0029,1000,1000
+0030,1000000,1000000
+0031,10000000,10000000
+0032,alif,ا
+0033,baa,ب
+0034,ta,ت
+0035,tha,ث
+0036,Jiim,ج
+0037,Haa,ح
+0038,kha,خ
+0039,daal,د
+0040,thal,ذ
+0041,raa,ر
+0042,zay,ز
+0043,siin,س
+0044,shiin,ش
+0045,Saad,ص
+0046,Daad,ض
+0047,Taa,ط
+0048,Zaa,ظ
+0049,Ayn,ع
+0050,ghayn,غ
+0051,faa,ف
+0052,qaaf,ق
+0053,kaaf,ك
+0054,laam,ل
+0055,miim,م
+0056,noon,ن
+0057,haa,ه
+0058,waaw,و
+0059,yaa,ي
+0060,taa marbuuTa,ة
+0061,alif with hamza above,أ
+0062,Waaw with hamza,ؤ
+0063,Alif maqsoura with hamza,ئ
+0064,hamza on line,ئـ
+0065,hamza,ء
+0066,alif with hamza below,إ
+0067,ALif with maad,آ
+0068,Alif maqsoura,ى
+0069,laam Alif,لا
+0078,Ins and Outs,شهيق - زفير
+0080,Face,وجه
+0088,heart,قلب
+0089,five senses,حواس خمس
+0090,muscle,عضلة
+0092,hospital,مستشفى
+0096,anesthetist,مخدر/ بنج
+0102,physical examination,فحص سريري
+0108,analysis,تحليل طبي
+0109,analysis laboratory,معمل التحاليل / مختبر
+0110,ray photo,صورة اشعة
+0111,inflammation,التهاب
+0112,swelling,تورم
+0113,cold,زكام
+0114,infection,عدوى
+0115,headache,صداع
+0116,pain,ألم
+0117,fever,حمى
+0118,diarrhea,إسهال
+0119,constipation,إمساك
+0120,colic,مغص
+0121,diabetes,مرض السكر / سكري
+0122,heart attack,أزمة قلبية
+0123,cancer,سرطان
+0124,Aids,مرض فقدان المناعة / الإيدز
+0125,Loss of hair,تساقط الشعر
+0126,Heart failure,سكتة قلبية
+0127,hemiplegia,شلل نصفي
+0128,Cerebral paralysis,شلل دماغي
+0129,blood pressure,ضغط الدم
+0130,allergy,حساسية
+0131,itch,حكة / هرش
+0132,medicine,دواء
+0133,monthly circulation,دورة شهرية
+0134,sick,مريض / مرض
+0135,capsule,كبسولة
+0136,liquid medicine,دواء شراب
+0137,ointment,مرهم
+0138,dropper,قطارة
+0139,acupuncture,أخذ إبرة
+0140,pollination,تلقيح
+0141,inoculation,تطعيم
+0142,laser ray,أشعة ليزر
+0143,drug's,مخدرات
+0144,addiction,إدمان
+0145,oneness,توحد / أوتيزم
+0146,mongoloid,منغولي
+0147,bacterium,بكتريا
+0148,microbe,جرثومة
+0149,virus,فيروس
+0150,spread,إنتشار
+0151,hindrance,إعاقة
+0152,mentality hindrance,إعاقة ذهنية
+0153,physical disability,اعاقة جسدية
+0154,visual impairment,اعاقة بصرية
+0155,hearing hindrance,إعاقة سمعية
+0156,epidemic,وباء
+0157,immunity,مناعة
+0158,nerve,عصب
+0159,healthy,معافى
+0160,eat,يأكل
+0161,drink,يشرب
+0162,sleep,ينام
+0163,wake up,يستيقظ
+0164,hear,يسمع
+0165,silence,يسكت
+0166,inhale,يشم
+0167,rise,يصعد
+0168,descend,ينزل
+0169,open,يفتح
+0170,close,يقفل ( يغلق )
+0171,build,يبني
+0172,break,يكسر
+0173,walk,يمشي
+0174,love,يحب
+0175,hate,يكره
+0176,grill,يشوي
+0177,plow,يحرث
+0178,plant,يزرع
+0179,irrigate,يسقي
+0180,harvest,يحصد
+0181,think,يفكر
+0182,help,يساعد
+0183,smoke,يدخن
+0184,support,يدعم
+0185,choose,يختار
+0186,call,ينادي
+0187,grow,يتنامى
+0188,dye,يصبغ
+0189,stand,يقف
+0190,bathe,يستحم
+0191,enter,يدخل
+0192,family,أسرة
+0193,grandmother,جدة
+0194,grandfather,جد
+0195,father,أب
+0196,mother,أم
+0197,sister,أخت
+0198,brother,أخ
+0199,girl,بنت
+0200,baby,رضيع
+0201,twin,توأم
+0202,man,رجل
+0203,young man,شاب
+0204,young woman,شابة
+0205,grandchild,حفيد
+0206,wedding,زواج
+0207,pregnant,حمل
+0208,childbirth,ولادة
+0209,uncle,عم
+0210,aunt,عمة
+0211,maternal uncle,خال
+0212,maternal aunt,خالة
+0213,nephew,ابن الأخ
+0214,nephew,ابن الأخت
+0215,cousin,ابن العم
+0216,son,ابن
+0217,daughter,ابنة
+0218,people,ناس
+0219,divorce,طلاق
+0220,engagement,خطوبة
+0221,party,حفلة
+0222,death,وفاة
+0223,child,طفل
+0224,beautiful,جميل
+0225,ugly,قبيح
+0226,long,طويل
+0227,short,قصير
+0228,thin,نحيف
+0229,fat,سمين
+0230,rich,غني
+0231,poor,فقير
+0232,offended,محبط
+0233,disgusted,مشمئز
+0234,confused,مرتبك
+0235,worried,قلق
+0236,deranged,مشوش
+0237,afraid,خائف
+0238,happy,سعيد (مسرور)
+0239,sad,حزين
+0240,courageous,شجاع
+0241,coward,جبان
+0242,ambitious,طموح
+0243,admirable,معجب
+0244,to be jealous of,غائر من
+0245,to protect jealously,غائر على
+0246,affectionate,ودود
+0247,generous,كريم
+0248,miserly,بخيل
+0249,greedy,طماع
+0250,liar,كذاب
+0251,selfish,أناني
+0252,proud,متكبر
+0253,humble,متواضع
+0254,feeling,شعور
+0255,tired,تعب
+0256,crying,بكاء
+0257,contempt,احتقار
+0258,self-dependence,اعتماد على الذات
+0259,light,خفيف
+0260,heavy,ثقيل
+0261,old,قديم
+0262,envy,حسد
+0263,believe,صدق
+0264,betrayal,غدر
+0265,patient,صبر
+0266,blame,لوم
+0267,truth,الحق
+0268,treason,خيانة
+0269,preference,إيثار
+0270,self sacrifice,تضحية
+0271,pity,شفقة
+0272,intelligent,ذكي
+0273,in front of,أمام
+0274,side,بجانب
+0275,far,بعيد
+0276,between,بين
+0277,under,تحت
+0278,around,حول
+0279,outside,خارج
+0280,back,خلف
+0281,inside,داخل
+0282,up,فوق
+0283,near,قريب
+0284,through,من خلال
+0285,here,هنا
+0286,there,هناك
+0287,left,يسار
+0288,right,يمين
+0289,welcome,أهلا وسهلاً
+0290,greeting,السلام عليكم
+0291,here you are,تفضل
+0292,neighbor,جار
+0293,thanks,شكراً
+0294,friend,صديق
+0295,guest,ضيف
+0296,enemy,عدو
+0297,fault,عيب
+0298,gift,هدية
+0299,house,بيت
+0300,wall,جدار
+0301,roof,سقف
+0302,door,باب
+0303,window,شباك
+0304,room,غرفة
+0305,bedroom,غرفة نوم
+0306,bed,سرير
+0307,mattress,مرتبة سرير ( حشية)
+0308,bedsheet,شرشف ( غطاء سرير)
+0309,pillow,وسادة ( مخدة)
+0310,clothes rail,شماعة ( مشجب)
+0311,wardrobe,خزانة ملابس
+0312,kitchen,مطبخ
+0313,Oven,فرن غازي
+0314,cooker,بوتاغاز (طابخ)
+0315,dish,طبق ( صحن)
+0316,knife,سكين
+0317,fork,شوكة
+0318,spoon,ملعقة
+0319,cupful,فنجان
+0320,freezer,مجمد (فريزر)
+0321,cup,كأس ( كوب)
+0322,thermos,حافظ حرارة ( ترمس)
+0323,food room,غرفة طعام
+0324,pitcher,إبريق
+0325,table,طاولة
+0326,dalah,كنكة ( دلة)
+0327,bathroom,دورة مياه (حمام)
+0328,chair,كرسي
+0329,washing machine,غسالة
+0330,towel carpet,منشفة
+0331,carpet,سجادة (زربية)
+0332,moquette,موكيت ( فرش أرضي) moquette
+0333,chandelier,ثريا (نجفة)
+0334,cassette,مسجل
+0335,cassette tape,شريط كاست
+0336,television,تلفزيون (تلفاز)
+0337,satellite,طبق هوائي (دش)
+0338,video tape,شريط فيديو
+0339,video camera,كاميرا فيديو
+0340,photo camera,كاميرا فوتوغرافية
+0341,telephone,هاتف ( تلفون)
+0342,guests room,غرفة ضيوف
+0343,video,فيديو
+0344,censer,مبخرة
+0345,heater,مدفأة
+0346,key,مفتاح
+0347,fan,مروحة
+0348,central heater,تدفئة مركزية
+0349,electrics,كهرباء
+0350,air conditioner,مكيف
+0351,wire,سلك كهربائي
+0352,plug,قابس كهربائي ( فيش)
+0353,bag,حقيبة سفر
+0354,iron,مكواة
+0355,thermometer,ميزان حرارة جوي
+0356,God,الله تعالى
+0357,Muhammad is the Messenger of Allah,محمد رسول الله
+0358,Essa Christ,عيسى المسيح
+0359,The Holy Quran,القرآن الكريم
+0360,Rightly Guided Caliphs,الخلفاء الراشدون
+0361,Sunnah,السنة النبوية
+0362,Pillars of Islam,أركان الإسلام
+0363,Pillars of Faith,أركان الإيمان
+0364,The two certificates,الشهادتين
+0365,pray,يصلي / الصلاة
+0366,zakat,الزكاة
+0367,Fasting,الصوم
+0368,Umrah,العمرة
+0369,Pilgrimage,الحج
+0370,Angels,ملائكة
+0371,messenger,رسول
+0372,Doomsday,يوم القيامة
+0373,Fate and destiny,القضاء والقدر
+0374,Pillars of prayer,أركان الصلاة
+0375,Good,خير
+0376,Intention,النية
+0377,Evil,شر
+0378,purity,طهارة
+0379,Prayer invalidators,مبطلات الصلاة
+0380,tayammum,تيمم
+0381,ablution,يتوضأ / وضوء
+0382,authorized,يؤذن
+0383,Wipe on the slippers,مسح على الخفين
+0384,Al-fajr prayer,صلاة الفجر
+0385,Salat Aduher,صلاة الظهر
+0386,Asr prayer,صلاة العصر
+0387,Maghreb's prayer,صلاة المغرب
+0388,eshaa pray,صلاة العشاء
+0389,speech,خطبة
+0390,Friday sermon,خطبة الجمعة
+0391,Fiance,خطيب
+0392,Eid sermon,خطبة العيد
+0393,Mosque,مسجد
+0394,surah,سورة
+0395,Before,إمام
+0396,Al-Fatihah,سورة الفاتحة
+0397,any,آية
+0398,Night of Power,ليلة القدر
+0399,Feast,عيد
+0400,Eid al-Fitr,عيد الفطر
+0401,Eid al-Adha,عيد الأضحى
+0402,Ihram,إحرام
+0403,Mecca,مكة
+0404,Kaaba,الكعبة
+0405,Medina,المدينة المنورة
+0406,Mona,منى
+0407,Arafat Mountain,جبل عرفات
+0408,Safa and Marwa,الصفا والمروة
+0409,Muzdalifah,مزدلفة
+0410,Throwing pebbles,رمي الجمرات
+0411,circumambulation,طواف
+0412,Zamzam water,ماء زمزم
+0413,the sacrifice,الأضحية
+0414,break the ihram,فك الإحرام
+0415,farewell circumambulation,طواف الوداع
+0416,Al-Aqsa Mosque,المسجد الأقصى
+0417,swim,يسبح
+0418,Thank God,الحمد لله
+0419,How great is our God,سبحان الله
+0420,Faith,إيمان
+0421,Polytheism,الشرك بالله
+0422,I seek refuge in God,أعوذ بالله
+0423,Satan,شيطان
+0424,genie,جن
+0425,the lost,الضالون
+0426,angered them,المغضوب عليهم
+0427,fetish,صنم
+0428,fornication,زنى
+0429,the Paradise,الجنة
+0430,fire,النار
+0431,spirit,روح
+0432,rights,حقوق
+0433,Duties,واجبات
+0434,Deeds,حسنات
+0435,sins,سيئات
+0436,halal,حلال
+0437,forbidden,حرام
+0438,forgiveness,مغفرة
+0439,religion,دين
+0440,Christian,مسيحي
+0441,Jewish,يهودي
+0442,church,كنيسة
+0443,Isra and Miraj,إسراء ومعراج
+0444,Eve,حواء
+0445,Adam,آدم
+0446,charity,صدقة
+0447,Prophet,نبي
+0448,guidance,هداية
+0449,honesty,أمانة
+0450,martyr,شهيد
+0451,Parental rights,حقوق الوالدين
+0452,Disobedience to parents,عقوق الوالدين
+0453,Muslim,مسلم
+0454,Mercy,رحمة
+0455,New Year's Holiday,عيد رأس السنة
+0456,homework,فروض
+0457,Dome of the Rock,قبة الصخرة
+0458,Create,خلق
+0459,engineer,مهندس
+0460,photographer,مصور فوتوغرافي
+0461,Meat man,جزار / قصاب
+0462,driver,سائق
+0463,jeweler,صائغ
+0464,servant,خادم
+0465,chairman,رئيس قسم
+0466,blacksmith,حداد
+0467,weld,لحام كهربائي
+0468,Sign language translator,مترجم لغة الإشارة
+0469,announcer,مذيع
+0470,translator,مترجم لغات
+0471,manager,مدير
+0472,ambassador,سفير
+0473,minister,وزير
+0474,King,ملك / سلطان
+0475,Premier Minister,أمير البلاد / رئيس الجمهورية
+0476,sheikh,شيخ
+0477,governor,محافظ / وال
+0478,under secretary of state,ولي عهد / وكيل وزارة
+0479,speaker,رئيس مجلس الشعب (النواب)
+0480,general secretary,أمين عام
+0481,journalist,صحفي
+0482,draftsman,رسام
+0483,tailor,خياط / تارزي
+0484,policeman,ضابط
+0485,pilot,طيار
+0486,soldier,جندي
+0487,barber,حلاق
+0488,dyer,صباغ
+0489,fireman,رجل إطفاء / دفاع مدني
+0490,carpenter,نجار
+0491,teacher,معلم / مدرس
+0492,chef,طباخ
+0493,farmer,فلاح
+0494,agent,موظف
+0495,treasurer,أمين صندوق
+0496,pharmacist,صيدلي
+0497,doctor,طبيب
+0498,nurse,ممرضة
+0499,orderly,ممرض
+0500,lawyer,محام
+0501,traveling,انتقال
+0502,appointment,تعيين
+0503,I,أنا
+0504,You (male),أنتَ
+0505,You (female),أنتِ
+0506,You (plural male),أنتم
+0507,You (dual),أنتما
+0508,You (plural female),أنتن
+0509,He,هو
+0510,She,هي
+0511,They (male),هم
+0512,They (dual),هما
+0513,They (female),هن
+0514,We,نحن
