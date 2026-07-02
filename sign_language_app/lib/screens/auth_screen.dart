@@ -77,21 +77,6 @@ class _AuthScreenState extends State<AuthScreen>
     }
   }
 
-  Future<void> _signInWithGoogle() async {
-    try {
-      await supabase.auth.signInWithOAuth(OAuthProvider.google);
-    } catch (e) {
-      if (mounted) _showSnack('حدث خطأ: $e');
-    }
-  }
-
-  Future<void> _signInWithFacebook() async {
-    try {
-      await supabase.auth.signInWithOAuth(OAuthProvider.facebook);
-    } catch (e) {
-      if (mounted) _showSnack('حدث خطأ: $e');
-    }
-  }
 
   void _showSnack(String msg) {
     ScaffoldMessenger.of(context).showSnackBar(
@@ -270,52 +255,7 @@ class _AuthScreenState extends State<AuthScreen>
                                     ),
                             ),
                           ),
-                          const SizedBox(height: 24),
-                          
-                          // Social Login Dividers
-                          Row(
-                            children: [
-                              Expanded(
-                                child: Divider(
-                                  color: Colors.white.withValues(alpha: 0.2),
-                                ),
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.symmetric(horizontal: 16),
-                                child: Text(
-                                  'أو الدخول عبر',
-                                  style: TextStyle(
-                                    color: Colors.white.withValues(alpha: 0.6),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Divider(
-                                  color: Colors.white.withValues(alpha: 0.2),
-                                ),
-                              ),
-                            ],
-                          ),
-                          const SizedBox(height: 24),
 
-                          // Social Login Buttons
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: [
-                              _buildSocialBtn(
-                                label: 'Google',
-                                color: const Color(0xFFDB4437),
-                                icon: Icons.g_translate_rounded, // Better G icon
-                                onTap: _signInWithGoogle,
-                              ),
-                              _buildSocialBtn(
-                                label: 'Facebook',
-                                color: const Color(0xFF4267B2),
-                                icon: Icons.facebook,
-                                onTap: _signInWithFacebook,
-                              ),
-                            ],
-                          ),
                         ],
                       ),
                     ),
@@ -357,37 +297,5 @@ class _AuthScreenState extends State<AuthScreen>
     );
   }
 
-  Widget _buildSocialBtn({
-    required String label,
-    required Color color,
-    required IconData icon,
-    required VoidCallback onTap,
-  }) {
-    return InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(12),
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-        decoration: BoxDecoration(
-          color: color.withValues(alpha: 0.1),
-          border: Border.all(color: color.withValues(alpha: 0.5)),
-          borderRadius: BorderRadius.circular(12),
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(icon, color: color, size: 24),
-            const SizedBox(width: 8),
-            Text(
-              label,
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
+
 }
